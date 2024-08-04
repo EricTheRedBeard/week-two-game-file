@@ -1,0 +1,23 @@
+body {
+    background-color: #cce5ff; /* Set the background color to light blue */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s; /* Smooth transition for button scaling */
+}
+
+button:hover {
+    transform: scale(1.1); /* Scale the button by 100% on hover */
+}
+
+
